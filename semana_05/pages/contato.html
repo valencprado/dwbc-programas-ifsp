@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <li><a href="../index.html">HOME</a></li>
+            <li><a href="./eventos.html">EVENTOS</a></li>
+            <li><a href="./contato.html">CONTATO</a></li>
+            <li><a href="./sobre.html">SOBRE</a></li>
+            <li><a href="./login.html">ENTRAR</a></li>
+        </nav>
+        <section class="intro">
+
+            <figure class="logo">
+
+                <img src="../img/Logo.jpg" alt="Logo do IFSP">
+            </figure>
+    </header>
+    <h1>Mande uma mensagem</h1>
+    <form>
+        <ul>
+            <li>
+                <label for="nome">Nome completo</label>
+                <input type="text" name="nome" required>
+            </li>
+            <li>
+                <label for="email">Email</label>
+                <input type="text" name="email" required>
+            </li>
+            <li>
+
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" placeholder="(99)99999-9999" required>
+                </li>
+                <li> 
+                    <label for="eventos">Assunto</label>
+                    <select name="eventos">
+                        <option value="">-- selecione --</option>
+                        <option value="reclamacao">Reclamação</option>
+                        <option value="sugestao">Sugestão</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" cols="30" rows="10"></textarea>
+                </li>
+                
+        
+        <fieldset>
+            <legend>Opções de resposta</legend>
+            <label for="email">E-mail</label>
+            <input type="checkbox" name="opcoes-resposta">
+            <label for="tel">Telefone</label>
+            <input type="checkbox" name="opcoes-resposta">
+
+        </fieldset>
+        <li>
+            <input type="submit">
+        </li>        
+    </ul>
+    </form>
+
+    <a href="https://www.facebook.com/ifsppirituba" target="_blank">
+        <img src="../img/facebook.png" alt="Facebook do IFSP Pirituba" class="img--link">
+    </a>
+    </section>
+    <footer>
+        <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato:
+            (011) 2504-0100</p>
+    </footer>
+</body>

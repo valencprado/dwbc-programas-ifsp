@@ -1,0 +1,11 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1rem;
+    float: right;
+}
+
+.img--link {
+    width: 60px;
+}
