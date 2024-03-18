@@ -26,48 +26,23 @@
                 <img src="../img/Logo.jpg" alt="Logo do IFSP">
             </figure>
     </header>
-    <h1>Mande uma mensagem</h1>
+    <h1>Entrar</h1>
     <form>
-        <ul>
-            <li>
-                <label for="nome">Nome completo</label>
-                <input type="text" name="nome" required>
-            </li>
-            <li>
-                <label for="email">Email</label>
-                <input type="text" name="email" required>
-            </li>
-            <li>
+        <div class="input-login">
 
-                <label for="telefone">Telefone</label>
-                <input type="tel" name="telefone" placeholder="(99)99999-9999" required>
-                </li>
-                <li> 
-                    <label for="eventos">Assunto</label>
-                    <select name="eventos">
-                        <option value="">-- selecione --</option>
-                        <option value="reclamacao">Reclamação</option>
-                        <option value="sugestao">Sugestão</option>
-                    </select>
-                </li>
-                <li>
-                    <label for="mensagem">Mensagem</label>
-                    <textarea name="mensagem" cols="30" rows="10"></textarea>
-                </li>
-                
+            <label for="user">Usuário</label>
+            <input type="text" name="user" required>   
+        </div>
+        <div class="input-login">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" required>
+        </div>
         
-        <fieldset>
-            <legend>Opções de resposta</legend>
-            <label for="email">E-mail</label>
-            <input type="checkbox" name="opcoes-resposta">
-            <label for="tel">Telefone</label>
-            <input type="checkbox" name="opcoes-resposta">
+        <div class="input-login login-submit">
 
-        </fieldset>
-        <li>
             <input type="submit">
-        </li>        
-    </ul>
+            <a href="#">Esqueci a senha</a>
+        </div>
     </form>
 
     <a href="https://www.facebook.com/ifsppirituba" target="_blank">
