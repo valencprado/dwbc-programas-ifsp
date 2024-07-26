@@ -8,7 +8,7 @@ function imprimeNotas(aluno, primeiraNota, segundaNota) {
 let segundoConceito = segundaNota * 0.4;
 let somaMultiplicacoes = primeiroConceito + segundoConceito
     alert(`Aluno: ${aluno} Primeira nota: ${primeiraNota} Segunda nota: ${segundaNota}`)
-    alert("Nota total: " + somaMultiplicacoes)
+    alert("Nota total: " + somaMultiplicacoes.toFixed(2))
 }
 imprimeNotas(nomeAluno, primeiraNota, segundaNota);
 
