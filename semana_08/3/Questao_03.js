@@ -20,7 +20,7 @@ imprimeNotas(nomeAluno, primeiraNota, segundaNota);
 
 nomeAluno = "Matheus Braga";
 primeiraNota = 9;
-segundaNota == 6;
+segundaNota = 6;
 
 imprimeNotas(nomeAluno, primeiraNota, segundaNota);
 
